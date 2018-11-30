@@ -129,14 +129,17 @@ body{
 .column-5{
 	padding: 10px 0px 0px 0px;
 	width: 100%;
-	display: inline-block;
+	position: relative;
+
 }
 
 .sub_column-5{
-	width: 200px;
-	margin: 0;
+	width: 24%;
+	margin: auto;
 	padding: 0;
 	text-align: left;
+	display: inline-block;
+
 }
 .sub_column-5 h4{
 	font-weight: 300;
