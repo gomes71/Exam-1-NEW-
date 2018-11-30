@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: lato; 
+}
+/* LOGO...............................LOGO..............................LOGO */
+#header-area{
+	background: white;
+	height: 65px;
+	width: 100%;
+}
+.column-1{
+	float: left;
+	width: 50%;
+}
+
+.logo h1{
+	font-size: 25px;
+	padding: 16px 10px ;
+	margin: 0;
+	color: gray;
+}
+
+/* Navigation...............................Navigation..............................Navigation */
+
+/* .column-2{
+	float: right;
+	width: 50%;
+} */
+.nav{
+	float: right;
+	font-size: 13px;
+	padding: 23px 10px ;
+	margin: 0;
+}
+
+.nav li{
+	color: gray;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav li:hover{
+	color: black;
+}
+
+.fa-sort-down{
+	color: gray;
+	padding-left: 5px;
+
+}
+
+/* section 1...............................section 1..............................section 1 */
+
+#banner-image{
+
+	min-height: 720px;
+	max-width: 1920px;
+	width: 100%;
+	background: url('../img/background2.jpg') no-repeat 0;
+	color: #ffffff;
+	background-size: cover;
+  	background-position: center;
+}
+/* .................GLOBAL CLASS......................... */
+.container{
+	width: 60%;
+	margin: auto;
+}
+/* ............................................................ */
+.column-3{
+	padding: 220px 0;
+}
+
+.column-3 h2{
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+.column-3 h2 #text_light{
+	font-weight: 300;
+}
+
+.column-3 h2 #text_orange{
+	font-weight: 700;
+	color: #FFBC00;
+}
+.column-3 button{
+	height: 35px;
+	width: 120px;
+	background: #FFBC00;
+	border: 0px solid;
+	color: white;
+	font-size: 12px;
+}
+
+
+/* section 2...............................section 2..............................section 2 */
+
+/* ................Part-1................ */
+.column-4{
+	padding: 50px 0px 0px 0px;
+	width: 95%;
+	text-align: center;
+	margin: auto;
+}
+
+.column-4 hr{
+	width: 40px;
+}
+
+.column-4 h3{
+	font-weight: 300;
+	margin: 0px 0px 5px 0px;
+}
+
+.column-4 p{
+	font-weight: 300;
+	margin: 5px 0px 0px 0px;
+}
+
+/* ................Part-2................ */
+
+.column-5{
+	padding: 10px 0px 0px 0px;
+	width: 100%;
+	display: inline-block;
+}
+
+.sub_column-5{
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.sub_column-5 h4{
+	font-weight: 300;
+	margin: 0px 0px 5px 0px;
+}
+
+.sub_column-5 p{
+	font-weight: 300;
+	margin: 5px 0px 0px 0px;
+
+}
